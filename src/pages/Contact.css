@@ -1,0 +1,54 @@
+input {
+padding: 6px 5px;
+/* background-color: aqua; */
+width: 250px;
+border: 0.5px solid black;
+border-radius: 7px;
+}
+
+form{
+ display: flex;
+ flex-direction: column;
+ gap: 7px;
+}
+
+.contact{
+    display: flex;
+    gap: 150px;
+    padding: 50px 70px;
+}
+
+
+p{
+    padding-bottom: 40px;
+    line-height: 18px;
+    font-weight: lighter;
+}
+
+ .contact h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #61459C;
+}
+
+label {
+    font-size: medium;
+}
+
+
+.users{
+    background-color: #715f97;
+    width: auto;
+    color: white;
+    border: 1px solid #61459C;
+    border-radius: 10px;
+    height: 200px;
+    padding: 25px;
+    font-size: small;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
