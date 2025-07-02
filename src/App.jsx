@@ -5,6 +5,7 @@ import Welcome from './pages/Welcome'
 import Contact from './pages/Contact'
 import Appreciation from './pages/Appreciation'
 import Header from './components/static/header'
+import Footer from './components/static/footer'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 <Route  path='appreciation' element ={<Appreciation/>}/>
 
 </Routes>
+<Footer></Footer>
 </BrowserRouter>
 
 
